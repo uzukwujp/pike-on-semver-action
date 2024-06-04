@@ -47,9 +47,12 @@ jobs:
         bump: ${{ steps.bump.outputs.match }}
         github_token: ${{ secrets.SEMVER_TOKEN }}
 
-    - name: save new version in a variable
+    - name: Store New Version
       run: |
-        tag=${{ steps.semver.outputs.new_version }}
-        echo $tag
+        echo "NEW_VERSION=${{ steps.semver.outputs.version }}" >> $GITHUB_ENV
+        
+    - name: Use New Version
+      run: |
+        echo "The new version is: $NEW_VERSION"
 
     
