@@ -1,9 +1,6 @@
 name: Build and Release Node.js App with Docker
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     types: [closed]
     branches:
