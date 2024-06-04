@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 const start = async () => {
 
   if (!process.env.port) {
-    console.error("server port is not set .....");
+    console.error("server port is not set  .......");
     process.exit(1)
   }
 
