@@ -1,5 +1,5 @@
 {
-  "name": "pike-on-semver-action",
+  "name": "spike-on-semver-action",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uzukwujp/pike-on-semver-action.git"
+    "url": "git+https://github.com/uzukwujp/spike-on-semver-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uzukwujp/pike-on-semver-action/issues"
+    "url": "https://github.com/uzukwujp/spike-on-semver-action/issues"
   },
-  "homepage": "https://github.com/uzukwujp/pike-on-semver-action#readme",
+  "homepage": "https://github.com/uzukwujp/spike-on-semver-action#readme",
   "dependencies": {
     "@types/cors": "^2.8.17",
     "body-parser": "^1.20.2",
