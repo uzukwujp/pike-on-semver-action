@@ -1,1 +1,1 @@
-# pike-on-semver-action
+# spike-on-semver-action
