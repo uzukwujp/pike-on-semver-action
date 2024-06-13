@@ -1,19 +1,17 @@
 import express from "express";
-import {json} from "body-parser";
 import cors from "cors";
 import "express-async-errors";
 
 
-import createPostRouter from "./routers/create-post";
-import getAllPostRouter from "./routers/get-all-post";
+import createAddressRouter from "./routers/create-address";
+import { errorHandler } from "./helper-function/error-handler";
 
 const app = express();
 
 app.set('trust proxy', false);
-app.use(json())
 app.use(cors())
 
-app.use(createPostRouter)
-app.use(getAllPostRouter)
+app.use(createAddressRouter)
+app.use(errorHandler)
 
 export default app;
